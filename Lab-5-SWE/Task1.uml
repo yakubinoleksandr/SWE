@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Task1</OriginalElement>
+  <nodes>
+    <node x="-94.5" y="481.0">com.Task1.Body</node>
+    <node x="184.5" y="457.0">com.Task1.Wheel</node>
+    <node x="522.0" y="857.0">com.Task1.RepairVisitor</node>
+    <node x="511.0" y="542.5">com.Task1.CarElementVisitor</node>
+    <node x="-74.5" y="-14.0">com.Task1.CarElement</node>
+    <node x="423.0" y="1266.0">com.Task1.Main</node>
+    <node x="45.0" y="161.0">com.Task1.Engine</node>
+    <node x="205.5" y="929.0">com.Task1.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Task1.Car" target="com.Task1.CarElement" relationship="TO_MANY">
+      <point x="-81.0" y="-81.0" />
+      <point x="246.0" y="890.0" />
+      <point x="-113.0" y="890.0" />
+      <point x="-113.0" y="470.0" />
+      <point x="-13.75" y="470.0" />
+      <point x="-60.75" y="44.0" />
+    </edge>
+    <edge source="com.Task1.Car" target="com.Task1.CarElement" relationship="REALIZATION">
+      <point x="81.0" y="-81.0" />
+      <point x="408.0" y="810.0" />
+      <point x="487.0" y="810.0" />
+      <point x="487.0" y="150.0" />
+      <point x="167.0" y="150.0" />
+      <point x="167.0" y="110.0" />
+      <point x="107.75" y="110.0" />
+      <point x="60.75" y="44.0" />
+    </edge>
+    <edge source="com.Task1.Wheel" target="com.Task1.CarElement" relationship="REALIZATION">
+      <point x="0.0" y="-153.0" />
+      <point x="327.0" y="150.0" />
+      <point x="167.0" y="150.0" />
+      <point x="167.0" y="110.0" />
+      <point x="107.75" y="110.0" />
+      <point x="60.75" y="44.0" />
+    </edge>
+    <edge source="com.Task1.Car" target="com.Task1.Wheel" relationship="CREATE">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="153.0" />
+    </edge>
+    <edge source="com.Task1.Body" target="com.Task1.CarElement" relationship="REALIZATION">
+      <point x="0.0" y="-129.0" />
+      <point x="27.0" y="150.0" />
+      <point x="167.0" y="150.0" />
+      <point x="167.0" y="110.0" />
+      <point x="107.75" y="110.0" />
+      <point x="60.75" y="44.0" />
+    </edge>
+    <edge source="com.Task1.Car" target="com.Task1.Engine" relationship="CREATE">
+      <point x="0.0" y="-81.0" />
+      <point x="327.0" y="810.0" />
+      <point x="167.0" y="810.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="com.Task1.Main" target="com.Task1.RepairVisitor" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="507.0" y="1230.0" />
+      <point x="607.0" y="1230.0" />
+      <point x="0.0" y="153.0" />
+    </edge>
+    <edge source="com.Task1.Main" target="com.Task1.Car" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="507.0" y="830.0" />
+      <point x="327.0" y="830.0" />
+      <point x="0.0" y="-81.0" />
+    </edge>
+    <edge source="com.Task1.Car" target="com.Task1.Body" relationship="CREATE">
+      <point x="0.0" y="-81.0" />
+      <point x="327.0" y="810.0" />
+      <point x="27.0" y="810.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="com.Task1.RepairVisitor" target="com.Task1.CarElementVisitor" relationship="REALIZATION">
+      <point x="0.0" y="-153.0" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="com.Task1.Engine" target="com.Task1.CarElement" relationship="REALIZATION">
+      <point x="0.0" y="-129.0" />
+      <point x="167.0" y="110.0" />
+      <point x="107.75" y="110.0" />
+      <point x="60.75" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.29394812680115273" showDependencies="true" x="305.0" y="680.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

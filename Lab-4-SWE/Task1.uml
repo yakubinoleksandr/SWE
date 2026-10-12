@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.genokiller.Task1</OriginalElement>
+  <nodes>
+    <node x="323.0" y="-13.5">com.genokiller.Task1.StockObserver</node>
+    <node x="243.0" y="142.0">com.genokiller.Task1.AnalyticsSystem</node>
+    <node x="523.0" y="154.0">com.genokiller.Task1.Investor</node>
+    <node x="-31.0" y="614.0">com.genokiller.Task1.Main</node>
+    <node x="383.0" y="354.0">com.genokiller.Task1.Trader</node>
+    <node x="-88.5" y="281.0">com.genokiller.Task1.Stock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.genokiller.Task1.Investor" target="com.genokiller.Task1.StockObserver" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="633.0" y="118.0" />
+      <point x="493.0" y="118.0" />
+      <point x="493.0" y="78.0" />
+      <point x="488.0" y="78.0" />
+      <point x="55.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Main" target="com.genokiller.Task1.Stock" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="117.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.AnalyticsSystem" target="com.genokiller.Task1.StockObserver" relationship="REALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="353.0" y="118.0" />
+      <point x="493.0" y="118.0" />
+      <point x="493.0" y="78.0" />
+      <point x="488.0" y="78.0" />
+      <point x="55.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Main" target="com.genokiller.Task1.Investor" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="53.0" y="578.0" />
+      <point x="633.0" y="578.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Main" target="com.genokiller.Task1.Trader" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="53.0" y="578.0" />
+      <point x="493.0" y="578.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Stock" target="com.genokiller.Task1.StockObserver" relationship="TO_MANY">
+      <point x="0.0" y="-117.0" />
+      <point x="53.0" y="98.0" />
+      <point x="378.0" y="98.0" />
+      <point x="-55.0" y="31.5" />
+    </edge>
+    <edge source="com.genokiller.Task1.Main" target="com.genokiller.Task1.AnalyticsSystem" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="53.0" y="578.0" />
+      <point x="353.0" y="578.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="com.genokiller.Task1.Trader" target="com.genokiller.Task1.StockObserver" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="493.0" y="78.0" />
+      <point x="488.0" y="78.0" />
+      <point x="55.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.90625" showDependencies="true" x="337.0000000000001" y="354.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

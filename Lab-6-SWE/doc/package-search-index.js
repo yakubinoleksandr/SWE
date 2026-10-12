@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.genokiller.task1"},{"l":"com.genokiller.task2"}];updateSearchResults();

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.genokiller.Task2</OriginalElement>
+  <nodes>
+    <node x="382.33354293756133" y="243.10033829813509">com.genokiller.Task2.Main</node>
+    <node x="613.1512274286664" y="147.70321181964746">com.genokiller.Task2.SeniorEngineerSupport</node>
+    <node x="31.116012357978974" y="153.7217179913901">com.genokiller.Task2.EngineerSupport</node>
+    <node x="763.4488633076319" y="400.3559880909253">com.genokiller.Task2.SupportRequest</node>
+    <node x="314.14196311551575" y="-13.056676336641402">com.genokiller.Task2.Handler</node>
+    <node x="-114.37433092338318" y="424.9308235538848">com.genokiller.Task2.OperatorSupport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.genokiller.Task2.Main" target="com.genokiller.Task2.SeniorEngineerSupport" relationship="CREATE">
+      <point x="84.0" y="-8.897126478487621" />
+      <point x="-140.0" y="61.5" />
+    </edge>
+    <edge source="com.genokiller.Task2.SeniorEngineerSupport" target="com.genokiller.Task2.Handler" relationship="REALIZATION">
+      <point x="-2.2742866644875903E-4" y="-69.00021181964746" />
+      <point x="753.151" y="112.0" />
+      <point x="454.142" y="112.0" />
+      <point x="3.6884484245547355E-5" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.OperatorSupport" target="com.genokiller.Task2.Handler" relationship="REALIZATION">
+      <point x="-12.009669076616817" y="-68.99982355388482" />
+      <point x="13.616" y="112.0" />
+      <point x="454.142" y="112.0" />
+      <point x="3.6884484245547355E-5" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.EngineerSupport" target="com.genokiller.Task2.Handler" relationship="TO_ONE">
+      <point x="14.99998764202104" y="-68.99971799139011" />
+      <point x="186.116" y="128.0" />
+      <point x="389.5" y="128.0" />
+      <point x="-64.64196311551575" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.Main" target="com.genokiller.Task2.EngineerSupport" relationship="CREATE">
+      <point x="-84.0" y="-2.8786203067449776" />
+      <point x="140.00000000000003" y="61.5" />
+    </edge>
+    <edge source="com.genokiller.Task2.SeniorEngineerSupport" target="com.genokiller.Task2.Handler" relationship="TO_ONE">
+      <point x="14.999772571333551" y="-69.00021181964746" />
+      <point x="768.151" y="128.0" />
+      <point x="389.5" y="128.0" />
+      <point x="-64.64196311551575" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.EngineerSupport" target="com.genokiller.Task2.Handler" relationship="REALIZATION">
+      <point x="-1.235797896015356E-5" y="-68.99971799139011" />
+      <point x="171.116" y="112.0" />
+      <point x="454.142" y="112.0" />
+      <point x="3.6884484245547355E-5" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.OperatorSupport" target="com.genokiller.Task2.Handler" relationship="TO_ONE">
+      <point x="-27.009669076616817" y="-68.99982355388482" />
+      <point x="-1.3840000000000003" y="128.0" />
+      <point x="389.5" y="128.0" />
+      <point x="-64.64196311551575" y="43.9996763366414" />
+    </edge>
+    <edge source="com.genokiller.Task2.Main" target="com.genokiller.Task2.SupportRequest" relationship="CREATE">
+      <point x="15.0" y="43.99999999999997" />
+      <point x="481.33354293756133" y="478.9308235538848" />
+      <point x="-112.0" y="-1.925164537040473" />
+    </edge>
+    <edge source="com.genokiller.Task2.Main" target="com.genokiller.Task2.OperatorSupport" relationship="CREATE">
+      <point x="0.0" y="43.99999999999997" />
+      <point x="466.33354293756133" y="493.9308235538848" />
+      <point x="140.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8135351736420303" showDependencies="true" x="510.4185639229424" y="340.1829028021015" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
